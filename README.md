@@ -2,7 +2,7 @@
 
 This is a simple cheat client for the popular game Among Us!
 
-To download a working version, visit this link:https://github.com/Assgent/Among-Us-Cheat-Client/releases/download/1.0.0/Among_Us_Cheat.zip
+To download a working version, visit this link: https://github.com/Assgent/Among-Us-Cheat-Client/releases/download/1.0.0/Among_Us_Cheat.zip
 
 
 
