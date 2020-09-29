@@ -2,7 +2,7 @@
 
 This is a simple cheat client for the popular game Among Us!
 
-To download a ready-to-go version, visit this link: https://github.com/Assgent/Among-Us-Cheat-Client/releases/download/1.0.0/Among_Us_Cheat.zip
+To download a working version, visit this link:https://github.com/Assgent/Among-Us-Cheat-Client/releases/download/1.0.0/Among_Us_Cheat.zip
 
 
 
@@ -15,3 +15,7 @@ To download a ready-to-go version, visit this link: https://github.com/Assgent/A
  - Buttons to toggle between imposter & crewmate, as well as dead & alive
  - Notification system to inform you of a death or if an imposter uses a vent
 
+# Credits
+
+ - AmongUsMemory.dll -> https://github.com/shlifedev/AmongUsMemory
+ - Memory.dll -> https://github.com/erfg12/memory.dll/
