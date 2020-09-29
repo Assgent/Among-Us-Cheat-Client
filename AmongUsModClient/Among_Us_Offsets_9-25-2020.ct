@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <CheatTable>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>17</ID>
+          <Description>"Imposter Role"</Description>
+          <LastState Value="1" RealAddress="15AAF920"/>
+          <VariableType>Byte</VariableType>
+          <Address>"GameAssembly.dll"+01468910</Address>
+          <Offsets>
+            <Offset>28</Offset>
+            <Offset>34</Offset>
+            <Offset>0</Offset>
+            <Offset>5C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>22</ID>
+          <Description>"IsDead"</Description>
+          <LastState Value="0" RealAddress="15AAF921"/>
+          <VariableType>Byte</VariableType>
+          <Address>"GameAssembly.dll"+01468910</Address>
+          <Offsets>
+            <Offset>29</Offset>
+            <Offset>34</Offset>
+            <Offset>0</Offset>
+            <Offset>5C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4</ID>
+          <Description>"Kill Cooldown"</Description>
+          <LastState Value="17.7000351" RealAddress="167045E4"/>
+          <VariableType>Float</VariableType>
+          <Address>"GameAssembly.dll"+01468910</Address>
+          <Offsets>
+            <Offset>44</Offset>
+            <Offset>0</Offset>
+            <Offset>5C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>10</ID>
+          <Description>"Speed Multiplier"</Description>
+          <LastState Value="1" RealAddress="15A8E32C"/>
+          <VariableType>Float</VariableType>
+          <Address>"GameAssembly.dll"+00DA3C30</Address>
+          <Offsets>
+            <Offset>14</Offset>
+            <Offset>14</Offset>
+            <Offset>5C</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatTable>

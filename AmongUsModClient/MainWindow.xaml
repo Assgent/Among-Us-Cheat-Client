@@ -1,0 +1,21 @@
+﻿<Window x:Name="Window" x:Class="AmongUsModClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Among Us Modding Client" Height="581.25" Width="902.5" ResizeMode="NoResize">
+    <Grid x:Name="MainGrid">
+        <GroupBox Header="Player Information" HorizontalAlignment="Left" Height="310" Margin="10,10,0,0" VerticalAlignment="Top" Width="492" FontSize="14" BorderBrush="#FF6C6C6C">
+            <DataGrid x:Name="PlayerInfoDataGrid" HorizontalAlignment="Left" Height="260" Margin="10,10,0,0" VerticalAlignment="Top" Width="457" IsReadOnly="True"/>
+        </GroupBox>
+        <TextBox x:Name="AlertTextBox" HorizontalAlignment="Left" Height="90" Margin="544,438,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="318" Foreground="Red" FontSize="18" TextAlignment="Center" IsReadOnly="True" SelectionBrush="{x:Null}" BorderBrush="Black"/>
+        <Button x:Name="ExitApplicationButton" Content="Exit Application" HorizontalAlignment="Left" Margin="544,382,0,0" VerticalAlignment="Top" Width="318" Height="40" FontSize="16" Background="#FFFFA0A0" Click="ExitApplicationButton_Click"/>
+        <Grid x:Name="MapGrid" HorizontalAlignment="Left" Height="203" Margin="10,325,0,0" VerticalAlignment="Top" Width="492" Background="#FFE8E8E8"/>
+        <Button x:Name="ForceImposterButton" Content="Become Imposter" HorizontalAlignment="Left" Margin="544,22,0,0" VerticalAlignment="Top" Width="150" Height="50" FontSize="16" Background="#FF9FD47A" Click="ForceImposterButton_Click"/>
+        <Button x:Name="ForceCrewmateButton" Content="Become Crewmate" HorizontalAlignment="Left" Margin="712,22,0,0" VerticalAlignment="Top" Width="150" Height="50" FontSize="16" Background="#FF7AD4D0" Click="ForceCrewmateButton_Click"/>
+        <Button x:Name="ForceDeathButton" Content="Become Ghost " HorizontalAlignment="Left" Margin="544,90,0,0" VerticalAlignment="Top" Width="150" Height="50" FontSize="16" Background="#FFFFB242" Click="ForceDeathButton_Click"/>
+        <Button x:Name="ForceAliveButton" Content="Resurrect Yourself" HorizontalAlignment="Left" Margin="712,90,0,0" VerticalAlignment="Top" Width="150" Height="50" FontSize="16" Background="#FFDD93FF" Click="ForceAliveButton_Click"/>
+        <Button x:Name="AboutButton" Content="About + Help" HorizontalAlignment="Left" Margin="544,353,0,0" VerticalAlignment="Top" Width="318" Height="24" Foreground="Black" Background="#FF30ACDA" Click="AboutButton_Click"/>
+    </Grid>
+</Window>

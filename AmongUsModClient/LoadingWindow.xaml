@@ -1,0 +1,14 @@
+﻿<Window x:Class="AmongUsModClient.LoadingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AmongUsModClient"
+        mc:Ignorable="d"
+        Title="Waiting for startup..." Height="211.765" Width="450.588" ResizeMode="NoResize">
+    <Grid>
+        <Label Content="Waiting for Among Us to start up..." HorizontalAlignment="Center" Margin="83,47,58,0" VerticalAlignment="Top" FontSize="18" Width="302"/>
+        <Label Content="Please start Among Us on this computer. (Steam)" HorizontalAlignment="Center" Margin="83,81,79,0" VerticalAlignment="Top" Width="281" HorizontalContentAlignment="Center"/>
+
+    </Grid>
+</Window>
