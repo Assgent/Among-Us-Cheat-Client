@@ -14,6 +14,7 @@ To download a working version, visit this link: https://github.com/Assgent/Among
  - Graphical representation of all player positions
  - Buttons to toggle between imposter & crewmate, as well as dead & alive
  - Notification system to inform you of a death or if an imposter uses a vent
+ - Automatically removes the imposter kill cooldown
 
 # Credits
 
