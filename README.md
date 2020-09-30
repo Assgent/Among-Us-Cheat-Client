@@ -19,3 +19,6 @@ To download a working version, visit this link: https://github.com/Assgent/Among
 
  - AmongUsMemory.dll -> https://github.com/shlifedev/AmongUsMemory
  - Memory.dll -> https://github.com/erfg12/memory.dll/
+
+
+<sub><sup>For educational purposes only. Use at your own risk!</sup></sub>
